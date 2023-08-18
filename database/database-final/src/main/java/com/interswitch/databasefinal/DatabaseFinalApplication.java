@@ -11,7 +11,8 @@ public class DatabaseFinalApplication {
 		SpringApplication.run(DatabaseFinalApplication.class, args);
 
 		MathematicalOp mathematicalOp = new MathematicalOp();
-		mathematicalOp.addition(3,4);
+		mathematicalOp.addition(10,4);
+		mathematicalOp.addition(10,20);
 
 	}
 
