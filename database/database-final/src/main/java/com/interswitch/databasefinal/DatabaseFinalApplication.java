@@ -1,5 +1,6 @@
 package com.interswitch.databasefinal;
 
+import com.interswitch.databasefinal.model.MathematicalOp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +9,12 @@ public class DatabaseFinalApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DatabaseFinalApplication.class, args);
+
+		MathematicalOp mathematicalOp = new MathematicalOp();
+		mathematicalOp.addition(3,4);
+
 	}
+
+
 
 }
